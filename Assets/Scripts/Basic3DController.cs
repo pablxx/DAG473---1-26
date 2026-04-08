@@ -29,7 +29,7 @@ public class Basic3DController : MonoBehaviour
         {
             Debug.LogError("CharacterController component is missing! Please add one to this GameObject.");
         }
-        
+
         // Fetch actions from the InputActionAsset
         if (inputActions != null)
         {
