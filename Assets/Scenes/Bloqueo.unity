@@ -34866,6 +34866,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 397108831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &760611352
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.954036
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.971822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -45.244476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522795757827353483, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298875782194606385, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
+      propertyPath: m_Name
+      value: MonitoMetalico
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91ae18046758a6e4db50287b57e57126, type: 3}
 --- !u!1 &928974951
 GameObject:
   m_ObjectHideFlags: 0
@@ -40223,3 +40280,4 @@ SceneRoots:
   - {fileID: 928974957}
   - {fileID: 543450652616015734}
   - {fileID: 1832729795}
+  - {fileID: 760611352}
