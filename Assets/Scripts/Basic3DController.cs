@@ -20,6 +20,8 @@ public class Basic3DController : MonoBehaviour
     private Vector2 moveInput;
     private InputAction moveAction;
     private InputAction jumpAction;
+
+    public Animator anim;
     
     void Start()
     {
@@ -87,13 +89,18 @@ public class Basic3DController : MonoBehaviour
         // Move character
         if (moveDirection.magnitude >= 0.1f)
         {
+            anim.SetBool("corriendo", true);
+
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
             
             // Rotate character to face movement direction
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        }else
+        {
+            anim.SetBool("corriendo", false);
         }
-        
+
         // Jump
         if (jumpAction != null && jumpAction.triggered && isGrounded)
         {
